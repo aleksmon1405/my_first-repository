@@ -11,7 +11,7 @@ BOT_TOKEN = '6981317449:AAEjtdXrYE4Nk6bwjUCeGz91oKikf-oM7As'
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
-f = open('files\\first.txt', 'r', encoding='UTF-8')
+f = open('first.txt', 'r', encoding='UTF-8')
 zodiac = f.read().split('\n')
 f.close()
 
